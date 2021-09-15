@@ -14,11 +14,14 @@ namespace Estoque
         public int Quantidade;
 
         public Produto(string nome, double preco, int quantidade)
-        {
+        {//cosntrutor
             Nome = nome;
             Preco = preco;
             Quantidade = quantidade;
         }
+        
+        
+        //Metodos da classe 
         public double ValorTotalEmEstoque()
         {
             return Preco * Quantidade;

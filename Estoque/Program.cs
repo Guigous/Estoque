@@ -8,7 +8,7 @@ namespace Estoque
 
         static void Main(string[] args)
         {
-
+            //input, processamento e Output de dados
             Produto p = new Produto("Nome", 0.0, 0);
             Console.WriteLine("Entre com os dados do produto;");
             Console.Write("Nome: ");
